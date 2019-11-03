@@ -81,8 +81,10 @@ def adding_matz
           :languages => ["C"]
         }
      }
+     
+     programmer_hash[:key => 'value']
 
-    
+    return programmer_hash
 end
 
 def changing_alan
